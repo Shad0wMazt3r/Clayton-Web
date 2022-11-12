@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clayton Farms</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<header class="text-gray-600 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <img src="https://uploads-ssl.webflow.com/6266e3a511342593cfb0c6e2/62d9b969bc4928cd165bcc85_Clayton%20Farms%20logo%20w%20cleaner%20typewriter%20font.png" class="w-10 h-10 text-white p-1 rounded-full">
+        <span class="ml-3 text-xl">Clayton Farms</span>
+      </a>
+      <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center px-0 py-0">
+        <!-- <a class="mr-5 hover:text-gray-900">Our Produce</a> -->
+        <a href="login" class="invisible md:visible mr-5 hover:text-gray-900 collapse">My Account</a>
+        <a href="javascript:scroll('body-text');" class="invisible md:visible mr-5 hover:text-gray-900 collapse">Our Story</a>
+        <a href="javascript:document.getElementById('contact-us').scrollIntoView();" class="invisible md:visible mr-5 hover:text-gray-900 ">Contact Us</a>
+      </nav>
+      <a href="shop"><button class="invisible md:visible inline-flex items-center bg-green-300 border-0 py-1 px-3 focus:outline-none hover:bg-green-400 rounded text-base mt-4 md:mt-0">Get your Greens
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+        </svg>
+      </button>
+      </a>
+    </div>
+  <hr>
+</header>
+<body>
+<div class="hero">
+    <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+            <img class="object-cover object-center rounded" alt="hero" src="https://uploads-ssl.webflow.com/6266e3a511342593cfb0c6e2/62e08cb6290ee578668d64b3_square%20version%20lettuce%2C%20tomatoes%2C%20micros%20photo%20shoot-p-500.jpg">
+          </div>
+          <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Harvested Daily
+              <br class="hidden lg:inline-block">And delivered to-your-door.
+            </h1>
+            <p class="mb-8 leading-relaxed">We're growing near you all year round at our indoor farm. So you always get the freshest locally grown greens.</p>
+            <div class="flex justify-center">
+              <a href="shop"><button class="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Get your greens now!</button></a>
+            </div>
+          </div>
+        </div>
+      </section>
+</div> 
+
+<!-- <div class="shop">
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-wrap -m-4">
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="Images/1.png">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">4 Servings/4 Cups per Serving</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">Butterhead Lettuce</h2>
+                <p class="mt-1">$7.50</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="Images/2.png">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">4 Servings/4 Cups per Serving</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">Oak Leaf Lettuce</h2>
+                <p class="mt-1">$7.50</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="Images/3.png">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">4 Servings/ 1/4 Cups per Serving</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">Peashoots</h2>
+                <p class="mt-1">$6.50</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/423x263">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">The 400 Blows</h2>
+                <p class="mt-1">$18.40</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/424x264">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">The Catalyzer</h2>
+                <p class="mt-1">$16.00</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/425x265">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">Shooting Stars</h2>
+                <p class="mt-1">$21.15</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/427x267">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">Neptune</h2>
+                <p class="mt-1">$12.00</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/428x268">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">The 400 Blows</h2>
+                <p class="mt-1">$18.40</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+</div> -->
+<div class="body-text">
+  <section class="text-gray-600 body-font">
+    <div class="rounded-lg h-64 overflow-hidden">
+      <img alt="content" class="object-cover object-center h-full w-full" src="https://www.shippingschool.com/wp-content/uploads/2020/05/Depositphotos_27804497_s-2019.jpg">
+    </div>
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full mb-12">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">A Story Of A Farm</h1>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Once upon a time, food came from faraway lands. It would spend many days in the back of the truck before you could find it on the grocery store shelf. By the time you’d find it, it was missing lots of its nutrients. That story was all too common, so we thought a better story could be written. A story where food could come from a neighborhood farm, grown without pesticides and all year long. A farm where you could receive same day harvest and delivery to your doorstep. Thanks to you, this story is coming to life at Clayton Farms.</p>
+      </div>
+      <div class="flex lg:w-2/3 w-full sm:flex-row flex-col mx-auto px-8 sm:space-x-4 sm:space-y-0 space-y-4 sm:px-0 items-end">
+        <div class="relative flex-grow w-full">
+          <label for="full-name" class="leading-7 text-sm text-gray-600">Full Name</label>
+          <input type="text" id="full-name" name="full-name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+        </div>
+        <div class="relative flex-grow w-full">
+          <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+          <input type="email" id="email" name="email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+        </div>
+        <button class="text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Signup</button>      </div>
+    </div>
+  </section>
+</div>
+<div class="contact-us">
+    <section class="text-gray-600 body-font relative">
+        <div class="absolute inset-0 bg-gray-300">
+          <iframe style="filter: grayscale(1) contrast(1.2) opacity(0.4);" marginheight="0" marginwidth="0" title="map" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11860.133923810123!2d-93.636312!3d41.999557!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x115d333e093a2658!2sNebullam%2C%20Inc.!5e0!3m2!1sen!2sus!4v1668232214591!5m2!1sen!2sus" width="100%" height="100%" frameborder="0"></iframe>
+        </div>
+        <div class="container px-5 py-24 mx-auto flex">
+          <div class="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
+            <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">Send Us A Message</h2>
+            <p class="leading-relaxed mb-5 text-gray-600">We would love to hear from you!</p>
+            <div class="relative mb-4">
+              <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+              <input type="email" id="email" name="email" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+            <div class="relative mb-4">
+              <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
+              <textarea id="message" name="message" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+            </div>
+            <button class="text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Send</button>
+            <p class="text-xs text-gray-500 mt-3">Research Park 7, 2500 N Loop Dr Suite 7550, Ames, IA 50010</p>
+          </div>
+        </div>
+      </section>
+</div>
+</body>
+</html>
