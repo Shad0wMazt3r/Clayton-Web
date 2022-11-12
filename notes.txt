@@ -1,0 +1,14 @@
+IOWA: https://account.nebullam.com/checkout/buy/114092
+MINNESOTA: https://mn.claytonfarms.com/pages/build-your-bundle
+
+
+
+request.remote_addr
+
+https://ipapi.co/{ip}/json
+
+response = requests.get(f'https://ipapi.co/{ip}/json').text
+response_info = json.loads(response)
+if responseinfo['region']=="Iowa":
+
+elif responseinfo['region']=="Minnesota":
